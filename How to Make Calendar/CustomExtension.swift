@@ -43,6 +43,11 @@ extension DateFormatter {
         formatter.dateFormat = "D"
         return formatter
     }
+    static var month: DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MMM"
+        return formatter
+    }
 }
 
 extension Date: Identifiable {
