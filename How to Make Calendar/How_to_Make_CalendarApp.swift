@@ -11,7 +11,7 @@ import SwiftUI
 struct How_to_Make_CalendarApp: App {
     var body: some Scene {
         WindowGroup {
-            RootView()
+            WholeCalendar()
         }
     }
 }

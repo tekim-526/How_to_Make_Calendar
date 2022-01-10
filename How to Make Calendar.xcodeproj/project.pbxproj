@@ -11,6 +11,8 @@
 		931861602782DEFF00AAB878 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9318615F2782DEFF00AAB878 /* ContentView.swift */; };
 		931861622782DF0100AAB878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931861612782DF0100AAB878 /* Assets.xcassets */; };
 		931861652782DF0100AAB878 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931861642782DF0100AAB878 /* Preview Assets.xcassets */; };
+		93AD8E772788160200ECB78A /* MainCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AD8E762788160200ECB78A /* MainCalendar.swift */; };
+		93AD8EAF278954EE00ECB78A /* CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AD8EAE278954EE00ECB78A /* CustomExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9318615F2782DEFF00AAB878 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		931861612782DF0100AAB878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		931861642782DF0100AAB878 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93AD8E762788160200ECB78A /* MainCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCalendar.swift; sourceTree = "<group>"; };
+		93AD8EAE278954EE00ECB78A /* CustomExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				9318615D2782DEFF00AAB878 /* How_to_Make_CalendarApp.swift */,
 				9318615F2782DEFF00AAB878 /* ContentView.swift */,
+				93AD8EAE278954EE00ECB78A /* CustomExtension.swift */,
+				93AD8E762788160200ECB78A /* MainCalendar.swift */,
 				931861612782DF0100AAB878 /* Assets.xcassets */,
 				931861632782DF0100AAB878 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93AD8EAF278954EE00ECB78A /* CustomExtension.swift in Sources */,
+				93AD8E772788160200ECB78A /* MainCalendar.swift in Sources */,
 				931861602782DEFF00AAB878 /* ContentView.swift in Sources */,
 				9318615E2782DEFF00AAB878 /* How_to_Make_CalendarApp.swift in Sources */,
 			);
